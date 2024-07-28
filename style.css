@@ -500,11 +500,6 @@ h3{
 
 
 
-
-
-
-
-
 /* ----- PROJECTS BOX ----- */
 .project-container{
     display: flex;
@@ -554,6 +549,32 @@ h3{
 .project-box:hover.project-box>label{
     color: var(--color-white);
     z-index: 2;
+}
+
+
+.github-btn-container {
+    margin-top: 20px;
+}
+
+.github-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition:  0.3s;
+}
+
+.github-btn:hover {
+    background-color: #444;
+}
+
+.github-btn i {
+    margin-right: 8px;
+    font-size: 18px;
 }
 
 /* ----- CONTACT BOX ----- */
