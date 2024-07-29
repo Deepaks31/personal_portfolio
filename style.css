@@ -338,6 +338,7 @@ nav{
 /* ----- MAIN BOX ----- */
 .section{
     padding-block: 7em;
+    min-height: 100vh; 
       
 }
 .row{
@@ -405,38 +406,37 @@ h3{
 
 
 
-/* Container for skill boxes and skill container */
 .skills-layout {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    margin: 0 auto;
 }
 
-/* Column for skills boxes */
+
+
 .skills-column {
     flex: 1;
 }
 
-/* Container for each skill box */
 .skills-box {
     margin: 10px;
     margin-left: 20%;
 }
 
-/* Header of each skills section (Frontend, Backend, Database) */
 .skills-header {
     margin-bottom: 30px;
 }
 
-/* List of skills with flexible layout */
 .skills-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Adjusted for better spacing */
-    justify-content: center; /* Centering the skills */
+    gap: 20px; 
+    justify-content: center;
 }
 
-/* Individual skill styling */
 .skills-list span {
     font-size: 14px;
     background: var(--first-color);
@@ -445,26 +445,22 @@ h3{
     border-radius: 5px;
 }
 
-/* Container for professional skills section */
 .skills-container {
-    flex: 0 0 30%; /* Fixed width for the professional skills container */
+    flex: 0 0 30%; 
     text-align: center;
     margin-right: 20%;
 }
 
-/* Header of the professional skills section */
 .skills-container h2 {
     margin-bottom: 20px;
 }
 
-/* Individual professional skill block */
 .skill {
     display: inline-block;
     margin: 20px;
     text-align: center;
 }
 
-/* Professional skill label */
 .skill p {
     margin-top: 10px;
 }
@@ -497,6 +493,19 @@ h3{
     transform: translate(-50%, -50%);
     font-size: 18px;
 }
+
+
+/* Matching the education section to the about section */
+.education {
+    width: 80%;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+/* Ensuring each section has its own page size and doesn't intersect with the footer */
+
+
 
 
 
