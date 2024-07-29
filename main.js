@@ -20,7 +20,7 @@ function headerShadow() {
 }
 
 var typingEffect = new Typed(".typedText", {
-    strings: ["Full stack developer", "UI Designer", "Web Developer"],
+    strings: ["Full stack developer", "Generative Ai Enthusiast", "Web Developer"],
     loop: true,
     typeSpeed: 100,
     backSpeed: 80,
