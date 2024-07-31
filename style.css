@@ -495,15 +495,13 @@ h3{
 }
 
 
-/* Matching the education section to the about section */
 .education {
     width: 80%;
     padding-block: 30px 70px;
     padding-inline: 20px;
-    margin: 0 auto; /* Center the section horizontally */
+    margin: 0 auto; 
 }
 
-/* Ensuring each section has its own page size and doesn't intersect with the footer */
 
 
 
