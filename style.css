@@ -525,19 +525,19 @@ h3{
     height: 250px;
     background: var(--color-white);
     border-radius: 20px;
-    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    box-shadow: 1px 8px 10px 2px var(--body-color);
     overflow: hidden;
 }
 .project-box>i{
     font-size: 50px;
-    color: #00B5E7;
+    color: #e6e6e6;
     margin-bottom: 25px;
 }
 .project-box label{
     font-size: 15px;
     color: #777;
 }
-.project-box::after, .contact-info::after{
+/* .project-box::after, .contact-info::after{
     content: "";
     position: absolute;
     bottom: -100%;
@@ -556,7 +556,7 @@ h3{
 .project-box:hover.project-box>label{
     color: var(--color-white);
     z-index: 2;
-}
+} */
 
 
 .github-btn-container {
